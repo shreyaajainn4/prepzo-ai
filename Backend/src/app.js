@@ -11,7 +11,7 @@ app.use(cookieParser())
 app.use(cors({
     origin: [
         "http://localhost:5173",
-           "https://prepzo-ai-frontend-pi.vercel.app"
+          "https://prepzo-ai-frontend.vercel.app"
     ],
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"]
